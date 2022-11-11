@@ -13,6 +13,20 @@ module.exports = {
 				light: "#F4F4F4",
 			},
 		},
+		container: {
+			center: true,
+			padding: {
+				DEFAULT: "1rem",
+				sm: "2rem",
+				lg: "0rem",
+			},
+			screens: {
+				sm: "600px",
+				md: "900px",
+				lg: "1200px",
+				// xl: "1536px",
+			},
+		},
 	},
 	plugins: [],
 };

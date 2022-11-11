@@ -23,10 +23,10 @@
 		<main>
 			<!-- hero of gardening -->
 			<section
-				class="h-screen bg-slate-100 flex items-center justify-center text-center bg-no-repeat bg-center bg-cover after:content-[''] after:absolute after:bg-gradient-to-t after:from-black after:w-full after:h-full"
+				class="h-screen bg-slate-100 flex items-center justify-center text-center bg-no-repeat bg-center bg-cover after:content-[''] after:absolute after:bg-gradient-to-t after:from-black after:w-full after:h-full after:z-5"
 				style="background-image: url(./assets/banner.jpg)"
 			>
-				<div class="z-10 px-4">
+				<div class="px-4 z-10">
 					<h6 class="text-2xl font-extrabold text-white">
 						Educated & Experienced
 					</h6>
@@ -49,31 +49,65 @@
 			</section>
 
 			<!-- more details -->
-			<section>
-				<div class="grid grid-cols-2 gap-4">
-					<!-- Residential Services -->
-					<div class="flex items-center gap-2">
-						<!-- left part of Residential Service -->
-						<div>
-							<div class="bg-primary py-6 px-4">
-								<i class="fa-solid fa-house-user text-5xl mb-4 text-white"></i>
-								<p class="font-extralight text-xl text-white font-nunito">
-									Residential Services
-								</p>
+			<section class="-mt-16 mb-16">
+				<div class="container">
+					<div class="grid sm:grid-cols-2 gap-8">
+						<!-- Residential Services -->
+						<div class="flex gap-2 max-h-56 flex-col sm:flex-row z-10">
+							<!-- left part of Residential Service -->
+							<div class="flex flex-col gap-2">
+								<div class="bg-primary py-6 px-4 w-full sm:w-48">
+									<i
+										class="fa-solid fa-house-user text-5xl mb-4 text-white"
+									></i>
+									<p class="font-extralight text-xl text-white font-nunito">
+										Residential Services
+									</p>
+								</div>
+								<button
+									class="text-secondary font-semibold text-sm uppercase bg-light px-6 py-4"
+								>
+									More Details
+								</button>
 							</div>
-							<button
-								class="text-secondary font-semibold text-lg uppercase bg-light px-6 py-4"
-							>
-								More Details
-							</button>
+							<!-- right part of Residential Service-->
+							<div class="w-full h-full">
+								<img
+									class="w-full h-full object-cover"
+									src="https://images.unsplash.com/photo-1581578017306-7334b15283df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+									alt="plant"
+								/>
+							</div>
 						</div>
-						<!-- rith part of Residential Service-->
-						<div>
-							<!-- image -->
+
+						<!-- Commercial Services -->
+						<div class="flex gap-2 max-h-56 flex-col sm:flex-row z-10">
+							<!-- left part of Commercial Service -->
+							<div class="flex flex-col gap-2">
+								<div class="bg-primary py-6 px-4 w-full sm:w-48">
+									<i
+										class="fa-solid fa-house-user text-5xl mb-4 text-white"
+									></i>
+									<p class="font-extralight text-xl text-white font-nunito">
+										Commercial Services
+									</p>
+								</div>
+								<button
+									class="text-secondary font-semibold text-sm uppercase bg-light px-6 py-4"
+								>
+									More Details
+								</button>
+							</div>
+							<!-- right part of Commercial Service-->
+							<div class="w-full h-full">
+								<img
+									class="w-full h-full object-cover"
+									src="https://images.unsplash.com/photo-1592863690346-6b28b8effea8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+									alt="plant"
+								/>
+							</div>
 						</div>
 					</div>
-
-					<!-- Commercial Services -->
 				</div>
 			</section>
 		</main>
