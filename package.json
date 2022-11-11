@@ -1,14 +1,8 @@
 {
-  "name": "gardening",
-  "version": "1.0.0",
-  "description": "Gardening website",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Apel Mahmud",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.2.3"
-  }
+	"scripts": {
+		"start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.2.3"
+	}
 }
