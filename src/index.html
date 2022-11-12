@@ -49,16 +49,18 @@
 			</section>
 
 			<!-- more details -->
-			<section class="-mt-16 mb-16">
+			<section class="-mt-20 mb-16">
 				<div class="container">
-					<div class="grid sm:grid-cols-2 gap-8">
+					<div class="grid lg:grid-cols-2 gap-8">
 						<!-- Residential Services -->
-						<div class="flex gap-2 max-h-56 flex-col sm:flex-row z-10">
+						<div
+							class="flex gap-2 sm:max-h-72 flex-col sm:flex-row z-10 group/elements group/item"
+						>
 							<!-- left part of Residential Service -->
 							<div class="flex flex-col gap-2">
-								<div class="bg-primary py-6 px-4 w-full sm:w-48">
+								<div class="bg-primary py-8 px-6 w-full sm:min-w-48">
 									<i
-										class="fa-solid fa-house-user text-5xl mb-4 text-white"
+										class="fa-solid fa-house-fire text-5xl mb-4 text-white"
 									></i>
 									<p class="font-extralight text-xl text-white font-nunito">
 										Residential Services
@@ -70,24 +72,62 @@
 									More Details
 								</button>
 							</div>
+
 							<!-- right part of Residential Service-->
-							<div class="w-full h-full">
+							<div class="relative w-full max-h-72">
 								<img
 									class="w-full h-full object-cover"
 									src="https://images.unsplash.com/photo-1581578017306-7334b15283df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
 									alt="plant"
 								/>
+								<!-- hover elements -->
+								<div
+									class="absolute top-0 left-0 bg-black bg-opacity-0 w-full h-full p-8 overflow-hidden invisible group-hover/elements:visible group-hover/elements:bg-opacity-80 transition-all ease-in-out duration-500"
+								>
+									<ul class="">
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-150 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Snow Plowing</span>
+										</li>
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-200 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Snow Hauling & Stacking</span>
+										</li>
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-300 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Ice Controlling</span>
+										</li>
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-500 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Showveling Sidewalk</span>
+										</li>
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-700 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Sidewalk Clearing</span>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 
 						<!-- Commercial Services -->
-						<div class="flex gap-2 max-h-56 flex-col sm:flex-row z-10">
+						<div
+							class="flex gap-2 sm:max-h-72 flex-col sm:flex-row z-10 group/elements group/item"
+						>
 							<!-- left part of Commercial Service -->
 							<div class="flex flex-col gap-2">
-								<div class="bg-primary py-6 px-4 w-full sm:w-48">
-									<i
-										class="fa-solid fa-house-user text-5xl mb-4 text-white"
-									></i>
+								<div class="bg-primary py-8 px-6 w-full sm:min-w-48">
+									<i class="fa-solid fa-cannabis text-5xl mb-4 text-white"></i>
 									<p class="font-extralight text-xl text-white font-nunito">
 										Commercial Services
 									</p>
@@ -98,13 +138,51 @@
 									More Details
 								</button>
 							</div>
+
 							<!-- right part of Commercial Service-->
-							<div class="w-full h-full">
+							<div class="relative w-full max-h-72">
 								<img
 									class="w-full h-full object-cover"
-									src="https://images.unsplash.com/photo-1592863690346-6b28b8effea8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+									src="https://plus.unsplash.com/premium_photo-1661773338358-8376be19c25f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 									alt="plant"
 								/>
+								<!-- hover elements -->
+								<div
+									class="absolute top-0 left-0 bg-black bg-opacity-0 w-full h-full p-8 overflow-hidden invisible group-hover/elements:visible group-hover/elements:bg-opacity-80 transition-all ease-in-out duration-500"
+								>
+									<ul class="">
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-150 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Snow Plowing</span>
+										</li>
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-200 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Snow Hauling & Stacking</span>
+										</li>
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-300 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Ice Controlling</span>
+										</li>
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-500 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Showveling Sidewalk</span>
+										</li>
+										<li
+											class="relative -left-full group-hover/item:left-0 ease-in-out duration-700 text-white flex gap-2 items-center my-3"
+										>
+											<i class="fa-solid fa-cannabis text-green-600"></i>
+											<span>Sidewalk Clearing</span>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
