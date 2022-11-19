@@ -270,19 +270,32 @@
 
 			<!-- customer rating -->
 			<section
-				class="relative my-24 z-10 bg-no-repeat bg-cover"
+				class="relative my-24 z-10 bg-no-repeat bg-cover bg-center"
 				style="
-					background-image: url(/src/assets/parallel-bg.jpg);
+					background-image: url(./assets/awward-bg.jpg);
 					background-attachment: fixed;
 				"
 			>
 				<!-- overlay background -->
-				<div
-					class="absolute w-full h-full bg-black top-0 left-0 opacity-90 -z-10"
-				></div>
+				<!-- <div
+					class="absolute w-full h-full bg-black top-0 left-0 opacity-10 -z-10"
+				></div> -->
 
 				<div class="container py-28 z-20">
-					<div class="grid md:grid-cols-3 sm:grid-cols-2 gap-8">
+					<div
+						class="grid lg:grid-cols-2 max-w-3xl mx-auto min-h-[60px] -mt-36 mb-32"
+					>
+						<div class="bg-primary flex justify-center items-center">
+							<h3 class="text-2xl text-white uppercase font-medium">
+								Customer Rating
+							</h3>
+						</div>
+						<div class="bg-yellow-500 flex justify-center items-center">
+							<h3 class="text-xl text-secondary">Trusted By 1000+ Clients</h3>
+						</div>
+					</div>
+
+					<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 						<!-- for best services card -->
 						<div
 							class="border border-border text-center w-full min-w-[320px] py-4"
@@ -313,36 +326,35 @@
 								</h4>
 							</div>
 						</div>
+
 						<!-- garden designer card -->
-						<div
-							class="border border-border text-center w-full min-w-[320px] py-4"
-						>
+						<div class="text-center w-full min-w-[320px] py-4">
 							<!-- award icon -->
 							<div class="my-8">
-								<i class="fa-solid fa-award fa-5x text-white"></i>
-							</div>
-
-							<!-- year -->
-
-							<div class="relative my-8 w-full">
-								<div
-									class="w-full before:content-[''] before:absolute before:bg-border before:w-full before:h-px before:left-0 before:top-1/2 before:-z-10"
-								>
-									<p
-										class="font-semibold text-2xl bg-black text-primary w-[120px] text-center mx-auto border-2 border-border"
-									>
-										2022
-									</p>
-								</div>
+								<i class="fa-solid fa-award fa-5x text-primary"></i>
 							</div>
 
 							<!-- desc -->
 							<div class="my-8 px-4">
-								<h4 class="font-bold text-2xl text-white">
-									National Award Winner of The Year
+								<h6 class="text-primary uppercase font-semibold mb-2">
+									Achievements
+								</h6>
+								<h4 class="font-semibold text-2xl text-white">
+									Award Winning Landscape and Gardern Designer
 								</h4>
+
+								<div class="mt-4">
+									<a
+										href="#"
+										class="text-white text-base uppercase font-semibold"
+									>
+										<i class="fa-solid fa-fan text-primary mr-1"></i>
+										<span> View more abouts </span></a
+									>
+								</div>
 							</div>
 						</div>
+
 						<!-- Award winner of ther year card  -->
 						<div
 							class="border border-border text-center w-full min-w-[320px] py-4"
